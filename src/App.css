@@ -19,6 +19,9 @@ body{
 .h-1{
   height: 100vh !important;
 }
+.slick-slide[aria-hidden="true"] {
+  display: none !important;
+}
 .img1{
 
   background-image: url("assets/img/banner-1.png");
