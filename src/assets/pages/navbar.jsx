@@ -8,7 +8,7 @@ export default function Navbar() {
   // DRAWER START
   const [drawerdata,setdrawerdata]=useState(() => {
     const data = JSON.parse(localStorage.getItem("order"));
-    console.log(data);
+
     return data || []; 
   });
   const [open, setOpen] = React.useState(false);
