@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+;
+:root{
+  --color1:#face0d;
+  --color3:#FBAD39;
+  --color2:#212121;
+
+--font-family: "Montserrat", serif;
+}
+body{
+  font-family: var(--font-family) !important;
+
+}
+.active{
+  color: var(--color1);
+}
+
+.h-1{
+  height: 100vh !important;
+}
+.img1{
+
+  background-image: url("assets/img/banner-1.png");
+  height: 73vh !important;
+  object-fit: cover !important;
+background-position: center !important;
+  background-size: cover !important;
+}
+.img2{
+
+  background-image: url("assets/img/banner-2.png");
+  height: 73vh !important;
+  object-fit: cover;
+background-position: center;
+  background-size: cover;
+}.img3{
+  background-image: url("assets/img/banner-3.png");
+  height: 73vh !important;
+  object-fit: cover;
+background-position: center;
+  background-size: cover;
+}
+.navbar{
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset !important;
+  background-color: rgb(253, 253, 253);
+  border: 1px solid rgba(0, 0, 0, 0.096);
+}
+/*  */
+.slider-container {
+  margin: auto !important;
+
+  width: 90vw !important;
+}
+.img-product{
+  background-size: cover;
+  object-fit: cover;
+  background-position:top !important;
+
+}
+.addbtn-1{
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  background-color: var(--color2) !important;
+}
